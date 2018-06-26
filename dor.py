@@ -104,7 +104,7 @@ def menu_3():
     slowaprint("[2]Alberto anggi")
     slowaprint("[3]Ardi Mr A_S")
     slowaprint("[4]Kumpul4semut")
-    return os.system('python app.py')
+    return os.system('python dor.py')
 def menu_4():
     slowprint("loading")
     os.system('sh jam.sh;python app.py')
