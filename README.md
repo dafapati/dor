@@ -1,8 +1,8 @@
  #print("Creative by")
-    ("[1]Adipati arya")https://github.com/adipatiarya
-    ("[2]Alberto anggi")https://github.com/albertoanggi/xl-py
-    ("[3]Ardi Mr A_S")haijuga7@gmail.com
-    ("[4]Kumpul4semut")https://github.com/kumpul4semut
+    <br>"[1]Adipati arya")https://github.com/adipatiarya
+    <br>"[2]Alberto anggi")https://github.com/albertoanggi/xl-py
+    <br>"[3]Ardi Mr A_S")haijuga7@gmail.com
+    <br>"[4]Kumpul4semut")https://github.com/kumpul4semut
     
     Easy install
     1.Download termux di olay store
