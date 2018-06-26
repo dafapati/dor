@@ -128,7 +128,7 @@ def menu_2():
 
 def menu_3():
      slowprint("loading")
-     os.system('cd ..;python app.py')
+     os.system('cd ..;python dor.py')
    
     
 def exit():
