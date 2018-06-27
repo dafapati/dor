@@ -34,7 +34,7 @@ except Exception as err:
     os.system('pip install --upgrade pip')
     os.system('pip install requests')
     os.system('pip install -r requirements.txt')
-    os.system('python app.py')()
+    os.system('python dor.py')()
 except KeyboardInterrupt:
 	  print (m+"[" + p + "Fail To Import" + m + "]")
 	  sys.exit()
