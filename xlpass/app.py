@@ -268,7 +268,7 @@ def menu_1():
 def menu_2():
     try:
         clear()
-        print (tembak)
+        
         print(g+"               ..::Request Password Menu::..")
         print ("")
         msisdn = str(input(gt+"Input your MSISDN >> "+p))
