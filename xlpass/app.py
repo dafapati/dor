@@ -242,15 +242,9 @@ def menu_1():
         if(r != False):
             print(xl.purchasePackage(serviceid)['message'])
             print (gt+"___________________________________________________________")
-        decision = str(input("Want to repeat the process [Y/N]? >> "))
-        menu_actions['main']() if(decision in ['N','n']) else menu_actions['1']()
-        return
-        except(KeyboardInterrupt):
-        print (m+"     ["+p+"!"+m+"] "+m+"(Ctrl + C ) Detected, "+p+"Trying To Back ...")
-        print (m+"     ["+p+"*"+m+"] "+g+"Thank For Using my Pentest Tools ^~^")
-        time.sleep(1)
-        menu_1()
-        
+            decision = str(input("Want to repeat the process [Y/N]? >> "))
+            menu_actions['main']() if(decision in ['N','n']) else menu_actions['1']()
+            return
 def menu_2():
     try:
         clear()
