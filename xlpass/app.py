@@ -239,7 +239,7 @@ def menu_1():
             decision = str(input("Want to repeat the process [Y/N]? >> "))
             decision = decision.lower()
             if decision == 'y':
-                me(msisdn, passwd)
+                menu_1()
             else:
                 main_menu()
         else:
@@ -262,7 +262,6 @@ def menu_1():
 def menu_2():
     try:
         clear()
-        print (tembak)
         print(g+"               ..::Request Password Menu::..")
         print ("")
         msisdn = str(input(gt+"Input your MSISDN >> "+p))
