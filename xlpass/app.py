@@ -242,21 +242,13 @@ def menu_1():
         if(r != False):
             print(xl.purchasePackage(serviceid)['message'])
             print (gt+"___________________________________________________________")
-            decision = str(input("Want to repeat the process [Y/N]? >> "))
-            decision = decision.lower()
-            if decision == 'y':
-                me(msisdn, passwd)
-            else:
-                main_menu()
+            decision = str(input("Ingin mengulangi prosesnya [Y/N]? >> "))
+        menu_actions['main']() if(decision in ['N','n']) else menu_actions['1']()
         else:
             print(kt+"["+p+"!"+kt+"] "+m+"Login failed try again")
             print (gt+"___________________________________________________________")
-            decision = str(input("Want to repeat the process [Y/N]? >> "))
-            decision = decision.lower()
-            if decision == 'y':
-                me(msisdn, passwd)
-            else:
-                main_menu()
+            decision = str(input("Ingin mengulangi prosesnya [Y/N]? >> "))
+        menu_actions['main']() if(decision in ['N','n']) else menu_actions['1']()
         return
 
     except(KeyboardInterrupt):
