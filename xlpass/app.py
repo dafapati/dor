@@ -189,65 +189,7 @@ def menu_1():
             print ("")
             dor = str(input(gt+"Select one >> "+p))
             if dor == '1' or dor == '01':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x006\x009\x00'
-            elif dor == '2' or dor == '02':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x000\x00'
-            elif dor == '3' or dor == '03':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x001\x00'
-            elif dor == '4' or dor == '04':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x008\x00'
-            elif dor == '5' or dor == '05':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x009\x00'
-            elif dor == '6' or dor == '06':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x000\x00'
-            elif dor == '7' or dor == '07':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x002\x00'
-            elif dor == '8' or dor == '08':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x003\x00'
-            elif dor == '9' or dor == '09':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x004\x00'
-            elif dor == '10':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x004\x00'
-            elif dor == '11':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x005\x00'
-            elif dor == '12':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x006\x00'
-            elif dor == '13':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x001\x00'
-            elif dor == '14':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x002\x00'
-            elif dor == '15':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x003\x00'
-            elif dor == '16':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x005\x00'
-            elif dor == '17':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x006\x00'
-            elif dor == '18':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x007\x007\x00'
-            elif dor == '19':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x007\x00'
-            elif dor == '20':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x008\x00'
-            elif dor == '21':
-                c = b'\xff\xfe8\x002\x001\x001\x003\x008\x009\x00'
-        elif lihat == '6' or lihat == '06':
-            c = b'\xff\xfe8\x002\x001\x000\x009\x004\x009\x00'
-        elif lihat == '7' or lihat == '07':
-            c = b'\xff\xfe8\x002\x001\x001\x002\x003\x001\x00'
-        elif lihat == '8' or lihat == '08':
-            c = b'\xff\xfe8\x001\x001\x000\x006\x002\x004\x00'
-        serviceid = c.decode('utf-16')
-        xl = XL(msisdn)
-        r = xl.loginWithPassword(passwd)
-        if(r != False):
-            print(xl.purchasePackage(serviceid)['message'])
-            print (gt+"___________________________________________________________")
-            decision = str(input("Want to repeat the process [Y/N]? >> "))
-            menu_actions['main']() if(decision in ['N','n']) else menu_actions['1']()
-            return
-def menu_2():
-    try:
-        clear()
+
         
         print(g+"               ..::Request Password Menu::..")
         print ("")
@@ -274,12 +216,9 @@ def clear():
 
 menu_actions = {
     "main" : main_menu,
-    "1" : menu_1,
-    "2" : menu_2,
+   : menu_2,
     "3" : menu_3,
     "0" : exit
 }
+xlpass/app.py
 
-
-if __name__ == "__main__":
-    main_menu()
