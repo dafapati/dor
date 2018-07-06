@@ -150,7 +150,9 @@ def menu_2():
         time.sleep(1)
         menu_2()
 def menu_3(): 
-         os.system('cd ..;python app.py')
+        slowprint("Loading")
+         
+	os.system('cd ..;python dor.py')
 def exit():
     sys.exit()
 
