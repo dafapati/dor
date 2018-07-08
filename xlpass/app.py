@@ -82,7 +82,7 @@ def menu_1():
         slowprint (b+"Pilihan Paket")
         print ("")
         slowprint (p+" 01"+b+") "+a+"Xtra Kuota 30GB Rp. 10.000 30day")
-        slowprint (p+" 02"+b+") "+a+"Paket Xtra Go Izi")
+        slowprint (p+" 02"+b+") "+a+"Paket Xtra Go Izi | coid")
         slowprint (p+" 03"+b+") "+a+"Paket 3G Rp.22.900 30day")
         slowprint (p+" 04"+b+") "+a+"Paket 5GB Rp.32.900 30day")
         slowprint (p+" 05"+b+") "+a+"Paket 9GB Rp.52.900 30day")
