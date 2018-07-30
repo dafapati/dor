@@ -100,7 +100,7 @@ def menu_1():
         i = '8110577'
     elif pkt == '2':
         i = '8211010'
-    elif go == '3':
+    elif pkt == '3':
         i ='8211183'
     elif pkt == '4':
         i = str(input("Service ID Paket👉"))
