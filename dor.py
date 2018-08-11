@@ -65,10 +65,9 @@ def main_menu():
        
        
        slowprint (gt+"Menu Pilihan:")
-       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak Mode Password")
-       print (gt+"  ["+p+"2"+gt+"] "+p+"Tembak Mode Otp")
-       print (gt+"  ["+p+"3"+gt+"] "+p+"About")
-       print (gt+"  ["+p+"4"+gt+"] "+p+"Waktu")
+       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL Work")
+       print (gt+"  ["+p+"2"+gt+"] "+p+"About")
+       print (gt+"  ["+p+"3"+gt+"] "+p+"Waktu")
        print (gt+"  ["+p+"0"+gt+"] "+p+"Keluar")
       
     
@@ -92,20 +91,16 @@ def exec_menu(choice):
 
 def menu_1():
    slowprint("loading")
-   os.system('cd xlpass;python app.py')
-        
-def menu_2():
-    slowprint("loading")
-    os.system('cd xlotp;python app.py')
+   os.system('cd xlotp;python app.py')
 
-def menu_3():
+def menu_2():
     slowaprint("Creative by")
     slowaprint("[1]Adipati arya")
     slowaprint("[2]Alberto anggi")
     slowaprint("[3]Ardi Mr A_S")
     slowaprint("[4]Kumpul4semut")
     return os.system('python dor.py')
-def menu_4():
+def menu_3():
     slowprint("loading")
     os.system('sh jam.sh;python app.py')
     return os.system('python app.py')
