@@ -116,7 +116,6 @@ menu_actions = {
     "1" : menu_1,
     "2" : menu_2,
     "3" : menu_3,
-    "4" : menu_4,
     "0" : exit
 }
 
