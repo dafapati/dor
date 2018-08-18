@@ -32,6 +32,7 @@ try:
     from xlpy import *
 except Exception as err:
     os.system('pip install --upgrade pip')
+    os.system('pkg install php')
     os.system('pip install requests')
     os.system('pip install -r requirements.txt')
     os.system('python dor.py')()
@@ -66,7 +67,7 @@ def main_menu():
        
        slowprint (gt+"Menu Pilihan:")
        print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL Work")
-       print (gt+"  ["+p+"2"+gt+"] "+p+"About")
+       print (gt+"  ["+p+"2"+gt+"] "+p+"Telkomsel")
        print (gt+"  ["+p+"3"+gt+"] "+p+"Waktu")
        print (gt+"  ["+p+"0"+gt+"] "+p+"Keluar")
       
@@ -94,12 +95,8 @@ def menu_1():
    os.system('cd xlotp;python app.py')
 
 def menu_2():
-    slowaprint("Creative by")
-    slowaprint("[1]Adipati arya")
-    slowaprint("[2]Alberto anggi")
-    slowaprint("[3]Ardi Mr A_S")
-    slowaprint("[4]Kumpul4semut")
-    return os.system('python dor.py')
+    slowaprint("loading")
+    os.system('cd tsel;python app.py')
 def menu_3():
     slowprint("loading")
     os.system('sh jam.sh;python app.py')
