@@ -99,7 +99,7 @@ def menu_1():
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
     print (p+" 9.Xtra kuota waze & chat 7day 2500")
-    peint (p+" 10.Manual service id")
+    print (p+" 10.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
     if pkt == '1':
