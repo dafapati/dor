@@ -62,6 +62,7 @@ def main_menu():
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
        print(W + '# Provider gsm Operator ' + C + str(os.popen('getprop gsm.operator.alpha').read().split('\n')[0]))
        print(W + '# Python ' + C + str(pv) + W + ', ' + C + str(os.popen('getprop ro.product.device').read().split('\n')[0]) + ' ' + str(os.popen('getprop ro.build.version.release').read().split('\n')[0]) + ' Build SDK ' + str(os.popen('getprop ro.build.version.sdk').read().split('\n')[0]))
+       print(W + '# www.gebangkiidiw.com)
        print(W + '#'*45)
        
        
