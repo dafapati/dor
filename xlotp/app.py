@@ -100,7 +100,9 @@ def menu_1():
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
     print (p+" 9.Xtra kuota waze & chat 7day 2500")
-    print (p+" 10.Manual service id")
+    print (p+" 10.Xtra kuota waze & chat 3day 1000")
+    print (p+" 11.xtra kuota waze & chat 1day 500")
+    print (p+" 12.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
     if pkt == '1':
@@ -122,6 +124,10 @@ def menu_1():
     elif pkt == '9':
         i ='8211371'
     elif pkt == '10':
+        i ='8211370'
+    elif pkt == '11':
+        i = '8211369'
+    elif pkt == '12':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
