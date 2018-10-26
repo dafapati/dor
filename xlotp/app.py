@@ -49,7 +49,7 @@ semut=(gt+"""
       # #       #     # #     #    #    
 #     # #       #     # #     #    #    
  #####  ####### #     #  #####     # 
-www.gebangkiidiw.com 
+Mod : www.gebangkiidiw.com 
  =================================
 """)
 l="Harap tunggu.."
